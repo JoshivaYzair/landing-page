@@ -1,21 +1,21 @@
 # landing-page-demo
 
-##Descripción
+## Descripción
 Este proyecto consiste en la creación de una landing page basada en un diseño específico, utilizando las tecnologías de Angular y Bootstrap. El objetivo es demostrar habilidades en el desarrollo de aplicaciones web modernas y responsivas.
 
-##Tecnologías Utilizadas
+## Tecnologías Utilizadas
 - Angular: Framework para construir aplicaciones web de una sola página.
 - Bootstrap: Biblioteca de CSS para diseño web responsivo y componentes UI.
 - HTML5: Lenguaje de marcado para la estructura de la página web.
 - CSS3: Lenguaje de estilo para la presentación de la página web.
 - TypeScript: Lenguaje de programación utilizado en Angular.
 
-##Características
+## Características
 - Responsividad: La landing page es completamente responsiva y se adapta a diferentes tamaños de pantalla.
 - Componentes UI: Uso de componentes de Bootstrap para una interfaz de usuario moderna y atractiva.
 - Optimización: Carga rápida y eficiente de la página.
 
-##Capturas de Pantalla
+## Capturas de Pantalla
 
 Link del diseño el cual se baso el landing-page: [UiDUX - Dangila]([https://breakdance.github.io/breakdance/](https://www.uidux.com/dangila-cosmetic-product-website-design-for-figma-and-adobe-xd))
 
