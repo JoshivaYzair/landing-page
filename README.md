@@ -17,7 +17,7 @@ Este proyecto consiste en la creación de una landing page basada en un diseño 
 
 ## Capturas de Pantalla
 
-Link del diseño el cual se baso el landing-page: [UiDUX - Dangila]([https://breakdance.github.io/breakdance/](https://www.uidux.com/dangila-cosmetic-product-website-design-for-figma-and-adobe-xd))
+Link del diseño el cual se baso el landing-page: [UiDUX - Dangila](https://www.uidux.com/dangila-cosmetic-product-website-design-for-figma-and-adobe-xd))
 
 Diseño en canvan:
 ![image](https://github.com/user-attachments/assets/cf368f5b-169c-4671-9688-23739e70f609)
