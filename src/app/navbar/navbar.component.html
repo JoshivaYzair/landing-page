@@ -1,0 +1,30 @@
+<div class="container">
+    <nav class="nav-bar-menu">
+        <div class="nav-bar-logo">
+            <p>dangila</p>
+        </div>
+        <div class="nav-bar-buttons">
+            <ul [ngClass]="{'active': isMenuActive}">
+                @for (item of navData; track $index) {
+                    <li >
+                        <a href="#"
+                        [routerLink]="[item.routeLink]"
+                        routerLinkActive="active">
+                            <span>
+                                {{item.label}}
+                            </span>
+                        </a>
+                    </li>
+                }
+            </ul>
+        </div>
+        <div class="nav-bar-profile">
+            <i class="material-icons">search</i>
+            <i class="material-icons">shopping_cart</i>
+            <i class="material-icons">person</i>
+        </div>
+        <div class="menu-icon" (click)="toggleMenu()">
+            <i class="material-icons" id="menu-icon">menu</i>
+        </div>
+    </nav>
+</div>

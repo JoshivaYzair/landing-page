@@ -1,0 +1,259 @@
+<body>
+    <!--Main page Section-->
+    <div class="container">
+        <div class="row row-cols-1 row-cols-lg-2  justify-content-center">
+            <div class="col container-menu ">
+                <h1>dangila</h1>
+                <p><strong>Natural Inner Beauty</strong></p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat voluptatibus voluptatum rem. Id,
+                    porro eveniet ipsa reprehenderit officiis minima eius accusantium minus ducimus consequatur aut vel
+                    totam. Non, quam at!</p>
+                <button class="primary-button">Buy Now | $49.99</button>
+            </div>
+            <div class="col image-template">
+            </div>
+        </div>
+    </div>
+
+    <!--Customer Section-->
+    <div class="customer-section">
+        <div class="container">
+            <div class="container-info row row-cols-1  row-cols-sm-2 row-cols-lg-4">
+                <div class="col label-info col">
+                    <p><strong>25,356</strong></p>
+                    <p>Happy Customers</p>
+                </div>
+                <div class="col label-info col">
+                    <p><strong>6,060</strong></p>
+                    <p>Followers</p>
+                </div>
+                <div class="col label-info col">
+                    <p><strong>851</strong></p>
+                    <p>Shops</p>
+                </div>
+                <div class="col label-info col">
+                    <p><strong>95%</strong></p>
+                    <p>Happy Customers</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Effect Section-->
+    <div class="effect-section">
+        <div class="container">
+            <div class="row">
+                <div class="effect-title">
+                    <h1><strong class="main-tittle">Why Dangila?</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias autem voluptatem dolorum assumenda
+                        laboriosam eveniet, consequuntur odit dolore. Quam dolorum doloremque aliquam aut aperiam quasi
+                        cum ab fugiat? Veritatis, molestiae.</p>
+                </div>
+            </div>
+
+            <div class="row row-cols-1 row-cols-sm-3">
+                <div class="col info-effect">
+                    <i class="material-icons"> spa</i>
+                    <h1><strong>Natural</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat voluptatibus voluptatum rem. Id,
+                        porro eveniet.</p>
+                </div>
+                <div class="col info-effect">
+                    <i class="material-icons"> eco</i>
+                    <h1><strong>No Side effect</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat voluptatibus voluptatum rem. Id,
+                        porro eveniet.</p>
+                </div>
+                <div class="col info-effect">
+                    <i class="material-icons"> compost</i>
+                    <h1><strong>100% Organic</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit Fugiat voluptatibus voluptatum rem. Id,
+                        porro eveniet.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--About Section-->
+    <div class="about-section">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-lg-2 justify-content-center ">
+                <div class="col about-info">
+                    <h1><strong class="main-tittle">About Us</strong></h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quia quod iusto in, qui aliquid
+                        ab ipsa quasi, dicta culpa laboriosam modi quibusdam expedita iure, dolor omnis illum! Quam,
+                        quaerat!,Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt quia quod iusto in,
+                        qui aliquid ab ipsa quasi, dicta culpa laboriosam modi quibusdam expedita iure, dolor omnis
+                        illum! Quam, quaerat!</p>
+                    <div class="container-button">
+                        <button class="primary-button">Buy Now</button>
+                        <button class="secondary-button">View Details</button>
+                    </div>
+                </div>
+                <div class="col image-template">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Products Section-->
+    <div class="products-section">
+        <div class="container">
+            <h1 class="main-tittle">Our Products</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-5">
+                <div class="products-list">
+                    <div class="icon-circle">
+                        <i class="fas fa-pump-soap icon"></i>
+                    </div>
+                    <p>Cream</p>
+                </div>
+                <div class="products-list">
+                    <div class="icon-circle">
+                        <i class="fas fa-prescription-bottle icon"></i>
+                    </div>
+                    <p>Serum</p>
+                </div>
+                <div class="products-list">
+                    <div class="icon-circle">
+                        <i class="fas fa-flask icon"></i>
+                    </div>
+                    <p>Lotion</p>
+                </div>
+                <div class="products-list">
+                    <div class="icon-circle">
+                        <i class="fas fa-leaf icon"></i>
+                    </div>
+                    <p>Sunscreen</p>
+                </div>
+                <div class="products-list">
+                    <div class="icon-circle">
+                        <i class="fas fa-seedling icon"></i>
+                    </div>
+                    <p>Coconut Oil</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Testimonails Section-->
+    <div class="testimonial-section">
+        <div class="container">
+            <h2 class="main-tittle text-center mb-5">TESTIMONIALS</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Loop through testimonialData -->
+                    <div class="carousel-item" *ngFor="let item of testimonialData; let i = index"
+                        [class.active]="i === 0">
+                        <div class="card">
+                            <div class="card-body text-center">
+                                <h2>{{item.name}}</h2>
+                                <div class="quote-left">
+                                    <i class="fa-solid fa-quote-left"></i>
+                                </div>
+                                <p class="card-text">{{item.message}}</p>
+                                <div class="quote-right">
+                                    <i class="fa-solid fa-quote-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <a class="carousel-control-prev" href="#testimonialCarousel" role="button"
+                    data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+
+                <a class="carousel-control-next" href="#testimonialCarousel" role="button"
+                    data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Packaging Section-->
+    <div class="packaging-section">
+        <div class="container">
+            <div class="slider-container">
+                <div class="slider">
+                    @for (logo of logos; track $index) {
+                        <img [src]="logo" alt="first logo">
+                    }
+                    @for (logo of logos; track $index) {
+                        <img [src]="logo" alt="second logo">
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Newsletter Section-->
+    <div class="newsletter-section">
+        <div class="container">
+            <div class="container-allnewsletter row row-cols-1 row-cols-lg-2 justify-content-center">
+                <div class="col image-template"></div>
+                <div class="col subscripe-section">
+                    <h2>Subscribe Newsletter</h2>
+                    <p>Enter your email below for daily updates</p>
+                    <form>
+                        <input class="form-control" type="email" placeholder="Enter your email">
+                        <button type="submit">Get Started</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--Footer-section-->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row row-cols-2 row-cols-md-4">
+                <div class="col footer-media ">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+
+                <div class="col footer-link">
+                    <ul>
+                        <li>Best Seller</li>
+                        <li>Skin Products</li>
+                        <li>Beauty Products</li>
+                        <li>Track you order</li>
+                        <li>About Us</li>
+                    </ul>
+                </div>
+
+                <div class="col footer-info">
+                    <div class="footer-container">
+                        <i class="fa-solid fa-location-dot"></i>
+                        <p>11772 Tabrzi Street NW, Suite 21389, Atlanta, GA 902344</p>
+                    </div>
+                    <div class="footer-container">
+                        <i class="fa-solid fa-phone"></i>
+                        <p>+1 789 123456</p>
+                    </div>
+                    <div class="footer-container">
+                        <i class="fa-solid fa-envelope"></i>
+                        <p>hello&#64;dangila.com</p>
+                    </div>
+                </div>
+
+                <div class="col footer-email">
+                    <p>Receive special offers and get our latest updates.</p>
+                    <form class="email-container">
+                        <input class="form-control" type="email" placeholder="Enter e-mail">
+                        <button type="submit">Join</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>   
+</body>
